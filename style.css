@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: start;
+}
+
+.comment-container,
+.title {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.avatar {
+    width: 10%;
+}
+
+.container-user-somment {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.enterText {
+    width: 40vw;
+    padding: 4% 0;
+    border-bottom: 1px solid rgb(159, 159, 159);
+    display: none;
+}
