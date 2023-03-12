@@ -10,18 +10,31 @@
 }
 
 .avatar {
-    width: 10%;
+    width: 7%;
+    margin-bottom: 4%;
 }
 
-.container-user-somment {
+.container-user-message {
     display: flex;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
     gap: 2%;
+    margin-top: 4%;
 }
 
-.enterText {
+.enter-text {
     width: 40vw;
     padding: 4% 0;
     border-bottom: 1px solid rgb(159, 159, 159);
     display: none;
+}
+
+.enter-name {
+    font-weight: bolder;
+}
+
+.author {
+    display: flex;
+    margin: 4% 0;
+    gap: 10%
 }
